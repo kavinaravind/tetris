@@ -12,6 +12,8 @@ Tkinter Python Package
 
 `python2 tetris.py`
 
+You can modify the board dimensons by changing the parameters in `run(#_of_rows, #_of_columns)`
+
 ## Contributing
 
 1. Fork it!
