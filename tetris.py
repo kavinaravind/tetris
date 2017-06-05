@@ -1,6 +1,6 @@
-#karavind
-#Some conceptual help from imadueme, especially on rotatePiece() and removeFullRows()
+#kavinaravind
 #------------------------------------------------------------------------------------------------------------------
+
 from Tkinter import *
 import random
 
@@ -42,7 +42,6 @@ def loadBoard():
         board.append(newRow)
     canvas.data.board = board
     
-
 def redrawAll():
     canvas.delete(ALL)
     drawGame()
@@ -53,6 +52,7 @@ def drawGame():
     canvas.create_text(300,500,text="Score:" + str(canvas.data.score))
     if canvas.data.isGameOver == True:
         canvas.create_text(110,18,text="Game Over Press r to Restart!!! :)")
+
 def drawBoard():
     board=canvas.data.board
     for row in range(len(board)):
@@ -122,8 +122,7 @@ def moveFallingPiece(drow, dcol):
         return False
     else:
         return True
-
-        
+    
 def fallingPieceIsLegal():
     board=canvas.data.board
     rows=canvas.data.rows
