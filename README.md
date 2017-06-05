@@ -1,6 +1,6 @@
 # Tetris
 
-![Alt text](tetris.png "Tetris Application")
+![Alt text](tetris.png "Tetris Application"){:height="50%" width="50%"}
 
 Python Tetris Application using TkInter (Python's de-facto standard GUI package).
 https://wiki.python.org/moin/TkInter
@@ -15,6 +15,8 @@ Tkinter Python Package
 `python2 tetris.py`
 
 You can modify the board dimensons by changing the parameters in `run(#_of_rows, #_of_columns)`
+
+Press `r` on keyboard to reset game
 
 ## Contributing
 
