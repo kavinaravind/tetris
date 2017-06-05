@@ -1,5 +1,7 @@
 # Tetris
 
+![Alt text](tetris.png "Tetris Application")
+
 Python Tetris Application using TkInter (Python's de-facto standard GUI package).
 https://wiki.python.org/moin/TkInter
 
