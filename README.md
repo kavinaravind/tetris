@@ -1,6 +1,6 @@
 # Tetris
 
-![Alt text](tetris.png "Tetris Application"){:height="50%" width="50%"}
+<img src="tetris.png" width="50%" height="50%">
 
 Python Tetris Application using TkInter (Python's de-facto standard GUI package).
 https://wiki.python.org/moin/TkInter
