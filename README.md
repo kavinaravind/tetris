@@ -10,7 +10,7 @@ Tkinter Python Package
 
 ## Usage
 
-python2 tetris.py
+`python2 tetris.py`
 
 ## Contributing
 
@@ -20,7 +20,7 @@ python2 tetris.py
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
+## Updates
 
 Movements of pieces can be a little odd, may consider improving this.
 
